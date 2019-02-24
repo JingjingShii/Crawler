@@ -80,7 +80,7 @@ def get_code_page(url):
     driver.find_element_by_xpath('//div[contains(@id, "option-1")]').click()
 
     time.sleep(10)
-    driver.save_screenshot('/Users/Jingjing/PycharmProjects/crawler/douban.png')
+    # driver.save_screenshot('/Users/Jingjing/PycharmProjects/crawler/douban.png')
 
     content = driver.page_source
     soup = BeautifulSoup(content, 'lxml')
@@ -118,7 +118,8 @@ def main():
 
     print(new_page_url)
 
-    get_code_page(new_page_url[0])
+    for i in new_page_url:
+        get_code_page(i)
 
 
 
