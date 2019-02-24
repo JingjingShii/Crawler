@@ -1,0 +1,30 @@
+[INFO  - 2019-02-24T01:59:20.539Z] GhostDriver - Main - running on port 61507
+[INFO  - 2019-02-24T01:59:21.329Z] Session [cd4ad2c0-37d7-11e9-9629-6d96a732ebdb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-02-24T01:59:21.329Z] Session [cd4ad2c0-37d7-11e9-9629-6d96a732ebdb] - page.customHeaders:  - {}
+[INFO  - 2019-02-24T01:59:21.329Z] Session [cd4ad2c0-37d7-11e9-9629-6d96a732ebdb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-02-24T01:59:21.329Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: cd4ad2c0-37d7-11e9-9629-6d96a732ebdb
+[ERROR - 2019-02-24T01:59:23.427Z] Session [cd4ad2c0-37d7-11e9-9629-6d96a732ebdb] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'ArrayBuffer.isView(value)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-02-24T01:59:23.427Z] Session [cd4ad2c0-37d7-11e9-9629-6d96a732ebdb] - page.onError - stack:
+  from (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:769)
+  from (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:821)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:6579)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:6815)
+  s (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:9533)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:9700)
+  s (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:10036)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:10119)
+  s (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:9752)
+  s (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+  e (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+  (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:1)
+
+  phantomjs://platform/console++.js:263 in error
