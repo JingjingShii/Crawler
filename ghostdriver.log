@@ -1,12 +1,12 @@
-[INFO  - 2019-02-24T02:19:15.523Z] GhostDriver - Main - running on port 50376
-[INFO  - 2019-02-24T02:19:15.872Z] Session [954b77a0-37da-11e9-bb57-bd2807ed5c25] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2019-02-24T02:19:15.872Z] Session [954b77a0-37da-11e9-bb57-bd2807ed5c25] - page.customHeaders:  - {}
-[INFO  - 2019-02-24T02:19:15.872Z] Session [954b77a0-37da-11e9-bb57-bd2807ed5c25] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2019-02-24T02:19:15.872Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 954b77a0-37da-11e9-bb57-bd2807ed5c25
-[ERROR - 2019-02-24T02:19:17.789Z] Session [954b77a0-37da-11e9-bb57-bd2807ed5c25] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'ArrayBuffer.isView(value)')
+[INFO  - 2019-02-24T02:28:32.014Z] GhostDriver - Main - running on port 52896
+[INFO  - 2019-02-24T02:28:32.629Z] Session [e125d7f0-37db-11e9-9c91-51f7cb7b90e1] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-02-24T02:28:32.629Z] Session [e125d7f0-37db-11e9-9c91-51f7cb7b90e1] - page.customHeaders:  - {}
+[INFO  - 2019-02-24T02:28:32.629Z] Session [e125d7f0-37db-11e9-9c91-51f7cb7b90e1] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-02-24T02:28:32.629Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e125d7f0-37db-11e9-9c91-51f7cb7b90e1
+[ERROR - 2019-02-24T02:28:34.535Z] Session [e125d7f0-37db-11e9-9c91-51f7cb7b90e1] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'ArrayBuffer.isView(value)')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-02-24T02:19:17.790Z] Session [954b77a0-37da-11e9-bb57-bd2807ed5c25] - page.onError - stack:
+[ERROR - 2019-02-24T02:28:34.535Z] Session [e125d7f0-37db-11e9-9c91-51f7cb7b90e1] - page.onError - stack:
   from (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:769)
   from (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:821)
   (anonymous function) (https://plot.ly/static/streaming/build/streamhead-bundle.814322c80b8e.js:6579)
